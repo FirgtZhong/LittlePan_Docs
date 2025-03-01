@@ -349,12 +349,9 @@
 <div class="kira-post">
 	<article>
 		
-		<div
-			class="kira-post-cover"
-			style="padding-bottom: '56.25%'"
-		>
+		<div class="kira-post-cover">
 			<img
-				data-src="https://dailybing.com/api/v1"
+				data-src="https://i.postimg.cc/wjwzhdR9/Screenshot-20250223-114318.png"
 				data-sizes="auto"
 				alt="安卓端部署及使用Hexo博客"
 				class="lazyload kira-post-cover-image disabled-kira-image"
@@ -364,7 +361,7 @@
 		
 		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
 			<a><i class="kirafont icon-calendar-fill"></i>2025年02月23日</a>
-			<a><i class="kirafont icon-edit-fill"></i>624 字</a>
+			<a><i class="kirafont icon-edit-fill"></i>620 字</a>
 			<a><i class="kirafont icon-time-circle-fill"></i>大概 2 分钟</a>
 		</div>
 		<html><head></head><body><blockquote>
@@ -378,13 +375,13 @@
 </ol>
 <h2><span id="%E8%AE%BE%E5%A4%87%E8%A6%81%E6%B1%82">设备要求</span></h2><p> 必须支持Arm64架构！！！</p>
 <h2><span id="%E6%89%80%E9%9C%80%E8%BD%AF%E4%BB%B6">所需软件</span></h2><p><a target="_blank" rel="noopener" href="https://github.com/Cateners/tiny_computer">Tiny Computer</a><br><a target="_blank" rel="noopener" href="https://git-scm.com/">git</a><br><a target="_blank" rel="noopener" href="https://nvm.p6p.net/">nvm</a><br><a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a></p>
-<h2><span id="%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95">食用方法</span></h2><h3><span id="%E5%AE%89%E8%A3%85tiny-computer%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5">安装Tiny Computer（）</span></h3><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://i.postimg.cc/wjwzhdR9/Screenshot-20250223-114318.png" alt="Releases页面" class="lazyload"></p>
+<h2><span id="%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95">食用方法</span></h2><h3><span id="%E5%AE%89%E8%A3%85tiny-computer-%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5">安装Tiny Computer </span></h3><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://i.postimg.cc/wjwzhdR9/Screenshot-20250223-114318.png" alt="Releases页面" class="lazyload"></p>
 <p>这里使用xfce的v1.0.20版本作为示例<br><em><strong>安卓设备一定要连接键鼠！</strong></em></p>
 <h3><span id="%E5%AE%89%E8%A3%85%E6%89%80%E9%9C%80%E8%BD%AF%E4%BB%B6">安装所需软件</span></h3><h4><span id="1-git">1. Git</span></h4><p>Tiny系统默认部署了Git，如果你想更新或重新安装Git，请参见 <a target="_blank" rel="noopener" href="https://www.cnblogs.com/fuzongle/p/12830572.html">链接</a><br><img data-fancybox="gallery" data-sizes="auto" data-src="https://i.postimg.cc/g2gf5qDp/Screenshot-20250223-115614.png" alt="Git官网页面" class="lazyload"></p>
-<h4><span id="2-nodejs%E5%8F%8Anpm%E4%BD%BF%E7%94%A8nvm%E6%9B%B4%E6%96%B0">2. Node.js及npm(使用nvm更新)</span></h4><p>由于Tiny系统自带的Node.js太过老旧，故使用nvm进行更新<br>在桌面右击→在此打开终端<img data-fancybox="gallery" data-sizes="auto" data-src="https://i.postimg.cc/pTT3d3Xy/3-002.png" alt="示例" class="lazyload"><br>使用以下命令安装nvm</p>
+<h4><span id="2-nodejs%E5%8F%8Anpm-%E4%BD%BF%E7%94%A8nvm%E6%9B%B4%E6%96%B0">2. Node.js及npm (使用nvm更新)</span></h4><p>由于Tiny系统自带的Node.js太过老旧，故使用nvm进行更新<br>在桌面右击→在此打开终端<img data-fancybox="gallery" data-sizes="auto" data-src="https://i.postimg.cc/pTT3d3Xy/3-002.png" alt="示例" class="lazyload"><br>使用以下命令安装nvm</p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash &amp;&amp; source ~/.bashrc<br></code></pre></td></tr></tbody></table></figure>
 <p><img data-fancybox="gallery" data-sizes="auto" data-src="https://i.postimg.cc/s2D3p6gC/Terminal-Desktop-001.png" alt="命令1" class="lazyload"><br>安装完成后使用以下命令验证安装</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">nvm --version &amp;&amp; npm --vision<br></code></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">nvm --version<br></code></pre></td></tr></tbody></table></figure>
 <p>使用以下命令查看系统自带的Node.js版本(这里笔者已安装最新版)</p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">nvm ls<br></code></pre></td></tr></tbody></table></figure>
 <p><img data-fancybox="gallery" data-sizes="auto" data-src="https://i.postimg.cc/7h74xjm0/Terminal-Desktop-002.png" alt="命令2" class="lazyload"></p>
