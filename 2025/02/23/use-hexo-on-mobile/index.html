@@ -108,6 +108,22 @@
 		
 		<a
 			class="kira-list-item mdui-ripple false"
+			target="_blank" rel="noopener" href="https://files.firgt.cn"
+			title="网盘"
+		>
+			<i
+				class="kirafont
+					
+						icon-tag-fill
+					"
+			></i>
+			<div class="kira-list-item-content">
+				网盘
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
 			href="/archive.html"
 			title="文章归档"
 		>
@@ -351,7 +367,7 @@
 		<html><head></head><body><blockquote>
 <p>在 <a href="https://firgt.eu.org/">Firgt的博客</a>发布</p>
 </blockquote>
-<p>昨天晚上看到了萌友<a target="_blank" rel="noopener" href="https://moe.one/user-592.htm">卡尔白~</a>发布的文章<a target="_blank" rel="noopener" href="https://karlbaey101.github.io/articles/Hexo-blog-and-you/">Hexo 博客与你</a>，感受到了他的良苦用心，但是我没有PC啊！<br>那么如何在没有PC的条件下使用移动端 <em><strong>（注意:本文只讨论安卓端！）</strong></em> 部署并使用Hexo搭建自己的博客！</p>
+<p>昨天晚上看到了萌友<a target="_blank" rel="noopener" href="https://moe.one/user-592.htm">卡尔白~</a>发布的文章<a target="_blank" rel="noopener" href="https://karlbaey.top/articles/Hexo-blog-and-you/">Hexo 博客与你</a>，感受到了他的良苦用心，但是我没有PC啊！<br>那么如何在没有PC的条件下使用移动端 <em><strong>（注意:本文只讨论安卓端！）</strong></em> 部署并使用Hexo搭建自己的博客！</p>
 <h2><span id="%E5%8E%9F%E6%96%99">原料</span></h2><ol>
 <li>安卓设备</li>
 <li>无线或有线OTG键鼠</li>
@@ -380,7 +396,7 @@
 <p>然后安装npm依赖:</p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">npm install<br></code></pre></td></tr></tbody></table></figure>
 <p><em><strong>安装所需软件完成！</strong></em></p>
-<p>之后就像Windows一样(<a target="_blank" rel="noopener" href="https://karlbaey101.github.io/2025/02/09/Hexo-blog-and-you/">卡尔白~ 的教程</a>)创建、编辑及推送博客啦。</p>
+<p>之后就像Windows一样(<a target="_blank" rel="noopener" href="https://karlbaey.top/articles/Hexo-blog-and-you/">卡尔白~ 的教程</a>)创建、编辑及推送博客啦。</p>
 <h2><span id="%E6%B3%A8%E6%84%8F">注意</span></h2><h3><span id="git%E7%94%A8%E6%9D%A5%E5%B9%B2%E5%98%9B%E7%9A%84%E5%91%A2">Git用来干嘛的呢？</span></h3><p>Git是用来管理Git仓库的（如推送、克隆仓库等）开源的分布式版本控制系统，本来是用在Linux开发的上的，后来在Windows上可以模拟Linux终端的环境（其实在安装git后，不需要打开Open Git Bash here，使用管理员权限下的cmd也可做到相同功能，就是搞类似<code>ssh-keygen -t</code>的Linux指令会比较麻烦）</p>
 <h3><span id="%E5%A6%82%E6%9E%9Chexo%E5%AE%89%E8%A3%85%E5%A4%B1%E8%B4%A5%E6%80%8E%E4%B9%88%E5%8A%9E">如果Hexo安装失败怎么办？</span></h3><p>先试试以下指令（多试几次）</p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">npm cache clean --force &amp;&amp; npm remove hexo-cli &amp;&amp; npm remove hexo<br></code></pre></td></tr></tbody></table></figure>
