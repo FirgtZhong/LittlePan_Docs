@@ -1,4 +1,5 @@
 * [关于](/)
 * [安装](/install)
 * [API文档](/api)
+* [配置文件](/config)
 * [支持](/support)
